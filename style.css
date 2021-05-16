@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #132c33;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#myVideo {
+  position: fixed;
+  z-index: -1;
+  filter: opacity(80%);
+}
+
+.comming_soon {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.count_down {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 2rem;
+}
